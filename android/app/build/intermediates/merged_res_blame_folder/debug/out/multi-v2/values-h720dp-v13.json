@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.hungybingy.app-mergeDebugResources-35:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

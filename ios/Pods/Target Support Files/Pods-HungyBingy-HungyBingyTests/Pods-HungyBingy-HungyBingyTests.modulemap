@@ -1,0 +1,6 @@
+module Pods_HungyBingy_HungyBingyTests {
+  umbrella header "Pods-HungyBingy-HungyBingyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

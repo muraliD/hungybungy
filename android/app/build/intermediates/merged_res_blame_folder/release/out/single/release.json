@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_vizag_bg_image.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_vizag_bg_image.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_pinimp.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_pinimp.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_sidemenu.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_sidemenu.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xxhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xxhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_logo.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_mobile.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_mobile.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xxhdpi_src_assets_images_check_circle.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xxhdpi/src_assets_images_check_circle.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_bg.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_bg.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_splash_icon3.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_splash_icon3.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_cod.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_cod.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_mobile_reset_icon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_mobile_reset_icon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_login_icon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_login_icon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xxxhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xxxhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_organe_top_shape.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_organe_top_shape.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_logo.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_logo.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_online.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_online.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_home.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_home.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativeratings_dist_images_star.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativeratings_dist_images_star.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativegoogleplacesautocomplete_images_powered_by_google_on_white.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativeratings_dist_images_heart.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativeratings_dist_images_heart.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_check_circle.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_check_circle.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativecounterinput_build_dist_localassets_pluswhite.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativecounterinput_build_dist_localassets_pluswhite.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_vizag_bg_image.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_vizag_bg_image.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_check_circle.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_check_circle.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_avatar.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_avatar.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativeratings_dist_images_bell.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativeratings_dist_images_bell.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_home.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_home.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_splash_icon1.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_splash_icon1.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_splash_icon2.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_splash_icon2.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativecounterinput_build_dist_localassets_minuswhite.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativecounterinput_build_dist_localassets_minuswhite.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backiconmask.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backiconmask.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_change_mobile.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_change_mobile.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstar.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstar.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_splash_icon2.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_splash_icon2.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativecounterinput_build_dist_localassets_plusblack.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativecounterinput_build_dist_localassets_plusblack.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_organe_top_shape.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_organe_top_shape.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_password.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_password.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_mobile.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_mobile.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_bg.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_bg.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_check.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_check.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_apple.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_apple.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativeratings_dist_images_airbnbstarselected.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativeratings_dist_images_airbnbstarselected.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.hungybingy.app-main-38:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_login_icon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_login_icon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_basket.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_basket.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_nofiles.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_nofiles.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-hdpi_node_modules_reactnavigation_elements_src_assets_backicon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-hdpi/node_modules_reactnavigation_elements_src_assets_backicon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_mobile_reset_icon.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_mobile_reset_icon.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_nofiles.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_nofiles.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativeratings_dist_images_rocket.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativeratings_dist_images_rocket.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_sidemenu.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_sidemenu.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_node_modules_reactnativecounterinput_build_dist_localassets_minusblack.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/node_modules_reactnativecounterinput_build_dist_localassets_minusblack.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_splash_icon1.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_splash_icon1.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_basket.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_basket.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_password.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_password.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-mdpi_src_assets_images_uncheck.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-mdpi/src_assets_images_uncheck.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/drawable-xhdpi_src_assets_images_splash_icon3.png.flat",
+        "source": "com.hungybingy.app-react-32:/drawable-xhdpi/src_assets_images_splash_icon3.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.hungybingy.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.hungybingy.app-main-38:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]

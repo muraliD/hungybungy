@@ -1,0 +1,492 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hungybingy"
+4    android:versionCode="4"
+5    android:versionName="1.3" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:3:5-67
+12-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:3:22-64
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:4:5-81
+13-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:4:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:5:1-75
+14-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:5:18-72
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:6:1-60
+15-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:6:18-58
+16    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+16-->[com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+16-->[com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+17-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+18-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+19    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+19-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+19-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+20    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+20-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+20-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+21
+22    <queries>
+22-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:10:5-39:15
+23        <intent>
+23-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:11:9-17:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+24-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+25
+26            <data
+26-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+27                android:mimeType="*/*"
+27-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+28                android:scheme="*" />
+28-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:16:17-35
+29        </intent>
+30        <intent>
+30-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:18:9-27:18
+31            <action android:name="android.intent.action.VIEW" />
+31-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+31-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+32
+33            <category android:name="android.intent.category.BROWSABLE" />
+33-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:13-74
+33-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:23-71
+34
+35            <data
+35-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+36                android:host="pay"
+37                android:mimeType="*/*"
+37-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+38                android:scheme="upi" />
+38-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:16:17-35
+39        </intent>
+40        <intent>
+40-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:28:9-30:18
+41            <action android:name="android.intent.action.MAIN" />
+41-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:13-65
+41-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:21-62
+42        </intent>
+43        <intent>
+43-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:31:9-35:18
+44            <action android:name="android.intent.action.SEND" />
+44-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:13-65
+44-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:21-62
+45
+46            <data android:mimeType="*/*" />
+46-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+46-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+47        </intent>
+48        <intent>
+48-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:36:9-38:18
+49            <action android:name="rzp.device_token.share" />
+49-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+49-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+50        </intent>
+51        <!-- Needs to be explicitly declared on Android R+ -->
+52        <package android:name="com.google.android.apps.maps" />
+52-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+52-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+53    </queries>
+54
+55    <uses-feature
+55-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+56        android:glEsVersion="0x00020000"
+56-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+57        android:required="true" />
+57-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+58
+59    <application
+59-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:10:5-35:19
+60        android:name="com.hungybingy.MainApplication"
+60-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:11:7-38
+61        android:allowBackup="false"
+61-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:15:7-34
+62        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+62-->[androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+63        android:debuggable="true"
+64        android:icon="@mipmap/ic_launcher"
+64-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:13:7-41
+65        android:label="@string/app_name"
+65-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:12:7-39
+66        android:roundIcon="@mipmap/ic_launcher_round"
+66-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:14:7-52
+67        android:theme="@style/AppTheme"
+67-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:16:7-38
+68        android:usesCleartextTraffic="true" >
+68-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:17:7-42
+69        <activity
+69-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:11:9-111
+70            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+70-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:11:19-83
+71            android:exported="false" />
+71-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:11:84-108
+72        <activity
+72-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:18:7-30:18
+73            android:name="com.hungybingy.MainActivity"
+73-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:19:9-37
+74            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+74-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:21:9-118
+75            android:exported="true"
+75-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:24:9-32
+76            android:label="@string/app_name"
+76-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:20:9-41
+77            android:launchMode="singleTask"
+77-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:22:9-40
+78            android:screenOrientation="portrait"
+78-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:25:9-45
+79            android:windowSoftInputMode="adjustPan" >
+79-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:23:9-48
+80            <intent-filter>
+80-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:26:9-29:25
+81                <action android:name="android.intent.action.MAIN" />
+81-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:13-65
+81-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:21-62
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:28:13-73
+83-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:28:23-70
+84            </intent-filter>
+85        </activity>
+86
+87        <meta-data
+87-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:32:9-34:63
+88            android:name="com.google.android.geo.API_KEY"
+88-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:33:6-51
+89            android:value="AIzaSyDlRbDrP5YrIgVTslPYQyho5wDO_nksibw" />
+89-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:34:6-61
+90
+91        <provider
+91-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+92            android:name="com.imagepicker.ImagePickerProvider"
+92-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+93            android:authorities="com.hungybingy.imagepickerprovider"
+93-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+94            android:exported="false"
+94-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+95            android:grantUriPermissions="true" >
+95-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+96            <meta-data
+96-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+97                android:name="android.support.FILE_PROVIDER_PATHS"
+97-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+98                android:resource="@xml/imagepicker_provider_paths" />
+98-->[:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+99        </provider>
+100
+101        <activity
+101-->[:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:86
+102            android:name="com.razorpay.CheckoutActivity"
+102-->[:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-57
+103            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+103-->[:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-83
+104            android:exported="true"
+104-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:54:13-36
+105            android:theme="@style/CheckoutTheme" >
+105-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:55:13-49
+106            <intent-filter>
+106-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:56:13-58:29
+107                <action android:name="android.intent.action.MAIN" />
+107-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:13-65
+107-->/Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:21-62
+108            </intent-filter>
+109        </activity>
+110
+111        <provider
+111-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+112            android:name="androidx.startup.InitializationProvider"
+112-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+113            android:authorities="com.hungybingy.androidx-startup"
+113-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+114            android:exported="false" >
+114-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+115            <meta-data
+115-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+116                android:name="androidx.work.WorkManagerInitializer"
+116-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+117                android:value="androidx.startup" />
+117-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+118            <meta-data
+118-->[androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+119                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+119-->[androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+120                android:value="androidx.startup" />
+120-->[androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+121            <meta-data
+121-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+122                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+122-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+123                android:value="androidx.startup" />
+123-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+124        </provider>
+125
+126        <service
+126-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+127            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+127-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+128            android:directBootAware="false"
+128-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+129            android:enabled="@bool/enable_system_alarm_service_default"
+129-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+130            android:exported="false" />
+130-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+131        <service
+131-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+132            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+132-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+133            android:directBootAware="false"
+133-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+134            android:enabled="@bool/enable_system_job_service_default"
+134-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+135            android:exported="true"
+135-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+136            android:permission="android.permission.BIND_JOB_SERVICE" />
+136-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+137        <service
+137-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+138            android:name="androidx.work.impl.foreground.SystemForegroundService"
+138-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+139            android:directBootAware="false"
+139-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+140            android:enabled="@bool/enable_system_foreground_service_default"
+140-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+141            android:exported="false" />
+141-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+142
+143        <receiver
+143-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+144            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+144-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+145            android:directBootAware="false"
+145-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+146            android:enabled="true"
+146-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+147            android:exported="false" />
+147-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+148        <receiver
+148-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+149            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+149-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+150            android:directBootAware="false"
+150-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+151            android:enabled="false"
+151-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+152            android:exported="false" >
+152-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+153            <intent-filter>
+153-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+154                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+154-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+154-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+155                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+155-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+155-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+156            </intent-filter>
+157        </receiver>
+158        <receiver
+158-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+159            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+159-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+160            android:directBootAware="false"
+160-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+161            android:enabled="false"
+161-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+162            android:exported="false" >
+162-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+163            <intent-filter>
+163-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+164                <action android:name="android.intent.action.BATTERY_OKAY" />
+164-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+164-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+165                <action android:name="android.intent.action.BATTERY_LOW" />
+165-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+165-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+166            </intent-filter>
+167        </receiver>
+168        <receiver
+168-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+169            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+169-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+170            android:directBootAware="false"
+170-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+171            android:enabled="false"
+171-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+172            android:exported="false" >
+172-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+173            <intent-filter>
+173-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+174                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+174-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+174-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+175                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+175-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+175-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+176            </intent-filter>
+177        </receiver>
+178        <receiver
+178-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+179            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+179-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+180            android:directBootAware="false"
+180-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+181            android:enabled="false"
+181-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+182            android:exported="false" >
+182-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+183            <intent-filter>
+183-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+184                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+184-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+184-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+185            </intent-filter>
+186        </receiver>
+187        <receiver
+187-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+188            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+188-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+189            android:directBootAware="false"
+189-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+190            android:enabled="false"
+190-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+191            android:exported="false" >
+191-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+192            <intent-filter>
+192-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+193                <action android:name="android.intent.action.BOOT_COMPLETED" />
+193-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+193-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+194                <action android:name="android.intent.action.TIME_SET" />
+194-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+194-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+195                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+195-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+195-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+196            </intent-filter>
+197        </receiver>
+198        <receiver
+198-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+199            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+199-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+201            android:enabled="@bool/enable_system_alarm_service_default"
+201-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+202            android:exported="false" >
+202-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+203            <intent-filter>
+203-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+204                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+204-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+204-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+205            </intent-filter>
+206        </receiver>
+207        <receiver
+207-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+208            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+208-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+209            android:directBootAware="false"
+209-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+210            android:enabled="true"
+210-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+211            android:exported="true"
+211-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+212            android:permission="android.permission.DUMP" >
+212-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+213            <intent-filter>
+213-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+214                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+214-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+214-->[androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+215            </intent-filter>
+216        </receiver>
+217
+218        <service
+218-->[androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+219            android:name="androidx.room.MultiInstanceInvalidationService"
+219-->[androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+220            android:directBootAware="true"
+220-->[androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+221            android:exported="false" />
+221-->[androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+222
+223        <receiver
+223-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:42:9-49:20
+224            android:name="com.razorpay.RzpTokenReceiver"
+224-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:43:13-57
+225            android:exported="true" >
+225-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:44:13-36
+226            <intent-filter>
+226-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:46:13-48:29
+227                <action android:name="rzp.device_token.share" />
+227-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+227-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+228            </intent-filter>
+229        </receiver>
+230
+231        <meta-data
+231-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:61:9-63:58
+232            android:name="com.razorpay.plugin.googlepay_all"
+232-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:62:13-61
+233            android:value="com.razorpay.RzpGpayMerged" /> <!-- Needs to be explicitly declared on P+ -->
+233-->[com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:63:13-55
+234        <uses-library
+234-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+235            android:name="org.apache.http.legacy"
+235-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+236            android:required="false" />
+236-->[com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+237
+238        <activity
+238-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+239            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+239-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+240            android:excludeFromRecents="true"
+240-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+241            android:exported="false"
+241-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+242            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+242-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+243        <!--
+244            Service handling Google Sign-In user revocation. For apps that do not integrate with
+245            Google Sign-In, this service will never be started.
+246        -->
+247        <service
+247-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+248            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+248-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+249            android:exported="true"
+249-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+250            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+250-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+251            android:visibleToInstantApps="true" />
+251-->[com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+252
+253        <activity
+253-->[com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+254            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+254-->[com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+255            android:exported="false"
+255-->[com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+256            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+256-->[com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+257
+258        <meta-data
+258-->[com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+259            android:name="com.google.android.gms.version"
+259-->[com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+260            android:value="@integer/google_play_services_version" />
+260-->[com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+261    </application>
+262
+263</manifest>

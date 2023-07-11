@@ -1,0 +1,858 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/b830064dce281faf9e825db23f4bdfba/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/921889fb6554311107808a2ed1a84094/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:8:1-15:12
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:@react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-geolocation-service] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-gesture-handler] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:react-native-maps] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-otp-verify] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-otp-verify/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-permissions] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-safe-area-context] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:react-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/b1d47bd6104fb13db18673c612b38c65/transformed/jetified-react-android-0.71.1-debug/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/18be38bcd13a0a2576b9df875f0af606/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.react:hermes-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/53944bb984c2be5ae26e2a41f8f8cdfe/transformed/jetified-hermes-android-0.71.1-debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-reanimated/android/build/.transforms/5112b7f82ab1fc5229d2ab71c7fb53c6/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/muralidadi/.gradle/caches/transforms-3/0a304b5c7f4682a64329a5c20e0361ee/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/28641f8c72709c52ef82463411bac509/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/99d17e2ea534f4c79cdeeb2ca1a8589a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/31ed1a56bff692a13eced15b01f90b34/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/e078f8fd736bc7056710b36850f75de9/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/muralidadi/.gradle/caches/transforms-3/e431a32b738a982c5b45399ca9bf3ff9/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/400a6de9c605d0b380687242a8ec4c7a/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/ddd9fa63fa435997108f2716bd6be5fe/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/0e577a9c1f2061980f2aa94045dbdf0d/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/fbb314237e12a74e2525aeda4977decc/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/7535d83a748a72db408df3b9d8ac8a99/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/muralidadi/.gradle/caches/transforms-3/2997761b54ef5a07f044b9d5785f958c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c5c7ba2360ed0ebed612189e2c70e75c/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/f26182ff40dd163467581767771c4802/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/8c19d6c99bce4f509ea2015c32fff9a3/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c7f5e09dd181616ac889f1b63c6f5848/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b1c05637c8e0f2236d32496aaf75069a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/muralidadi/.gradle/caches/transforms-3/a1000e207dad51fbad9a4351a6ba449a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/a326248580fad9123ca64494d9dd4057/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/muralidadi/.gradle/caches/transforms-3/d761b0b5668e774d052663137b8cda1b/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:2:1-66:12
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/muralidadi/.gradle/caches/transforms-3/33e664ce4a3965cf05b8037e8a3483fb/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/muralidadi/.gradle/caches/transforms-3/6ba5e73d7d7fba922da4c897494b3aeb/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/muralidadi/.gradle/caches/transforms-3/69cdc09741e7c55dd2ad826f756fac73/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/muralidadi/.gradle/caches/transforms-3/04364b1a9b08e93b7cd8bf366046e90d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/muralidadi/.gradle/caches/transforms-3/dcaedd0359377d66c78faf2bd5f80899/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/13f20bfff5ac419585b69cf97f92df38/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/2d62d7cd100974885f3de458b491b3d8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/muralidadi/.gradle/caches/transforms-3/18f1cb90b237af2a0f67428043f4c88b/transformed/fragment-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] /Users/muralidadi/.gradle/caches/transforms-3/2340e7d60100f5a3879637c6663a6953/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/4b130f43437e255747ba01d5a3c3745c/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/0b93342ff6aab53f86f316bd62d3cf0c/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/6c0940a54a2a421bb977d51f30418aa3/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/0ccacaa823cb48230d9d10a7cd86d6a4/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/3a5da3d902c8aea8caa9061a11800a24/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/7ef12656eb970fce250b93c630726bc8/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/muralidadi/.gradle/caches/transforms-3/9b44ca7d28d03228b419ccbb3bc70820/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/muralidadi/.gradle/caches/transforms-3/00d4899b049b51c9ef34b3036635a63e/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/0564d0cd8241227a9e9be772b712fa75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/652b95a8e81d71f1302d03f8cacf7888/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/9456f2700fd1aabdabfe949539089eb8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/cba5e601268f2b7d5ed519c05c178ec0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/e7da03eda7b8868d39012170a7697484/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/bb9c477224f727e3d6f7679289e80193/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/d3cee743c86ff6e39c0b21088fad5171/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/5cfdf1a2ea7d820d648432fd19783f08/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/muralidadi/.gradle/caches/transforms-3/d67cdf107ab14193204e2864ca8c1670/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/7e57376fdf6f4e57caefbbcea3c6f39c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/fad8f9e142fbdc9420933913df522125/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/598f78d38ba258ccc3fb30a77ecc356c/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/c7ac435a9cf22acc30b67f06b10dce50/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/ef7fc939f40dc466f149ae459eaba302/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muralidadi/.gradle/caches/transforms-3/b69236ee6779035dc3aecabd2ea60a4f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b465c72db0b71e675b984bba03994074/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/0e8bcc3bbb9938a9ff4e9a4e5d9ceb95/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/00042a4ca5cf8a18a537006d112a1976/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/2f7f128658d8cfbbf9bf05cd540c76b4/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b4c9ac0bd7c3e627bf8ed3a13411a9f9/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/4c7ef465923f5c82943e3f80f8fd6d7a/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/7e12783f8c408b5304d1b58becd92ab3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:2:1-13:12
+	package
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:1-36:12
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:3:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:15:5-67
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:8:5-67
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:4:5-81
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:4:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:5:1-75
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:5:18-72
+uses-permission#android.permission.CAMERA
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:6:1-60
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:6:18-58
+application
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:10:5-35:19
+MERGED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:10:5-35:19
+MERGED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:10:5-35:19
+MERGED from [:@react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
+MERGED from [:@react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-17:19
+MERGED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:19
+MERGED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:19
+MERGED from [com.facebook.react:react-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/b1d47bd6104fb13db18673c612b38c65/transformed/jetified-react-android-0.71.1-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/b1d47bd6104fb13db18673c612b38c65/transformed/jetified-react-android-0.71.1-debug/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/muralidadi/.gradle/caches/transforms-3/2997761b54ef5a07f044b9d5785f958c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/muralidadi/.gradle/caches/transforms-3/2997761b54ef5a07f044b9d5785f958c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/muralidadi/.gradle/caches/transforms-3/d761b0b5668e774d052663137b8cda1b/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/muralidadi/.gradle/caches/transforms-3/d761b0b5668e774d052663137b8cda1b/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:41:5-64:19
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:41:5-64:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/muralidadi/.gradle/caches/transforms-3/04364b1a9b08e93b7cd8bf366046e90d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/muralidadi/.gradle/caches/transforms-3/04364b1a9b08e93b7cd8bf366046e90d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/muralidadi/.gradle/caches/transforms-3/dcaedd0359377d66c78faf2bd5f80899/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/muralidadi/.gradle/caches/transforms-3/dcaedd0359377d66c78faf2bd5f80899/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/13f20bfff5ac419585b69cf97f92df38/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/13f20bfff5ac419585b69cf97f92df38/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muralidadi/.gradle/caches/transforms-3/b69236ee6779035dc3aecabd2ea60a4f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muralidadi/.gradle/caches/transforms-3/b69236ee6779035dc3aecabd2ea60a4f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:9:5-13:19
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:9:5-13:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:12:7-39
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:12:7-39
+	tools:ignore
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:10:9-48
+	android:roundIcon
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:14:7-52
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:14:7-52
+	tools:targetApi
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:9:9-29
+	android:icon
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:13:7-41
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:15:7-34
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:16:7-38
+	android:usesCleartextTraffic
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:17:7-42
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:11:7-38
+activity#com.hungybingy.MainActivity
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:18:7-30:18
+	android:screenOrientation
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:25:9-45
+	android:label
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:20:9-41
+	android:launchMode
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:22:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:23:9-48
+	android:exported
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:24:9-32
+	android:configChanges
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:21:9-118
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:19:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:26:9-29:25
+action#android.intent.action.MAIN
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:13-65
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:27:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:28:13-73
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:28:23-70
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:32:9-34:63
+	android:value
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:34:6-61
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml:33:6-51
+uses-sdk
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/b830064dce281faf9e825db23f4bdfba/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-network-plugin:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/b830064dce281faf9e825db23f4bdfba/transformed/jetified-flipper-network-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/921889fb6554311107808a2ed1a84094/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/921889fb6554311107808a2ed1a84094/transformed/jetified-flipper-fresco-plugin-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:@react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:@react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-async-storage/async-storage/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_datetimepicker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-geolocation-service] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-geolocation-service] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-maps] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-maps] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-maps/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-otp-verify] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-otp-verify/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-otp-verify] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-otp-verify/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-permissions] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-permissions] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-permissions/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-svg/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/b1d47bd6104fb13db18673c612b38c65/transformed/jetified-react-android-0.71.1-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/b1d47bd6104fb13db18673c612b38c65/transformed/jetified-react-android-0.71.1-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/18be38bcd13a0a2576b9df875f0af606/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/18be38bcd13a0a2576b9df875f0af606/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.react:hermes-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/53944bb984c2be5ae26e2a41f8f8cdfe/transformed/jetified-hermes-android-0.71.1-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:hermes-android:0.71.1] /Users/muralidadi/.gradle/caches/transforms-3/53944bb984c2be5ae26e2a41f8f8cdfe/transformed/jetified-hermes-android-0.71.1-debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-reanimated/android/build/.transforms/5112b7f82ab1fc5229d2ab71c7fb53c6/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-reanimated/android/build/.transforms/5112b7f82ab1fc5229d2ab71c7fb53c6/transformed/jetified-react-native-reanimated-71-hermes/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/muralidadi/.gradle/caches/transforms-3/0a304b5c7f4682a64329a5c20e0361ee/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fbjni:fbjni:0.3.0] /Users/muralidadi/.gradle/caches/transforms-3/0a304b5c7f4682a64329a5c20e0361ee/transformed/jetified-fbjni-0.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/28641f8c72709c52ef82463411bac509/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:flipper:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/28641f8c72709c52ef82463411bac509/transformed/jetified-flipper-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/99d17e2ea534f4c79cdeeb2ca1a8589a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:stetho:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/99d17e2ea534f4c79cdeeb2ca1a8589a/transformed/jetified-stetho-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/31ed1a56bff692a13eced15b01f90b34/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/31ed1a56bff692a13eced15b01f90b34/transformed/jetified-fresco-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/e078f8fd736bc7056710b36850f75de9/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/e078f8fd736bc7056710b36850f75de9/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/muralidadi/.gradle/caches/transforms-3/e431a32b738a982c5b45399ca9bf3ff9/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/muralidadi/.gradle/caches/transforms-3/e431a32b738a982c5b45399ca9bf3ff9/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/400a6de9c605d0b380687242a8ec4c7a/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/400a6de9c605d0b380687242a8ec4c7a/transformed/jetified-drawee-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/ddd9fa63fa435997108f2716bd6be5fe/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/ddd9fa63fa435997108f2716bd6be5fe/transformed/jetified-nativeimagefilters-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/0e577a9c1f2061980f2aa94045dbdf0d/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/0e577a9c1f2061980f2aa94045dbdf0d/transformed/jetified-memory-type-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/fbb314237e12a74e2525aeda4977decc/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/fbb314237e12a74e2525aeda4977decc/transformed/jetified-memory-type-java-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/7535d83a748a72db408df3b9d8ac8a99/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/7535d83a748a72db408df3b9d8ac8a99/transformed/jetified-imagepipeline-native-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/muralidadi/.gradle/caches/transforms-3/2997761b54ef5a07f044b9d5785f958c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.4] /Users/muralidadi/.gradle/caches/transforms-3/2997761b54ef5a07f044b9d5785f958c/transformed/jetified-soloader-0.10.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c5c7ba2360ed0ebed612189e2c70e75c/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c5c7ba2360ed0ebed612189e2c70e75c/transformed/jetified-memory-type-ashmem-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/f26182ff40dd163467581767771c4802/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/f26182ff40dd163467581767771c4802/transformed/jetified-imagepipeline-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/8c19d6c99bce4f509ea2015c32fff9a3/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/8c19d6c99bce4f509ea2015c32fff9a3/transformed/jetified-nativeimagetranscoder-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c7f5e09dd181616ac889f1b63c6f5848/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c7f5e09dd181616ac889f1b63c6f5848/transformed/jetified-imagepipeline-base-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.1] /Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b1c05637c8e0f2236d32496aaf75069a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b1c05637c8e0f2236d32496aaf75069a/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/muralidadi/.gradle/caches/transforms-3/a1000e207dad51fbad9a4351a6ba449a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.1] /Users/muralidadi/.gradle/caches/transforms-3/a1000e207dad51fbad9a4351a6ba449a/transformed/jetified-appcompat-resources-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/a326248580fad9123ca64494d9dd4057/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/a326248580fad9123ca64494d9dd4057/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/muralidadi/.gradle/caches/transforms-3/d761b0b5668e774d052663137b8cda1b/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:20.0.0] /Users/muralidadi/.gradle/caches/transforms-3/d761b0b5668e774d052663137b8cda1b/transformed/jetified-play-services-location-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:6:5-44
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/muralidadi/.gradle/caches/transforms-3/33e664ce4a3965cf05b8037e8a3483fb/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-wallet:18.1.3] /Users/muralidadi/.gradle/caches/transforms-3/33e664ce4a3965cf05b8037e8a3483fb/transformed/jetified-play-services-wallet-18.1.3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/muralidadi/.gradle/caches/transforms-3/6ba5e73d7d7fba922da4c897494b3aeb/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] /Users/muralidadi/.gradle/caches/transforms-3/6ba5e73d7d7fba922da4c897494b3aeb/transformed/jetified-play-services-auth-api-phone-18.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/muralidadi/.gradle/caches/transforms-3/69cdc09741e7c55dd2ad826f756fac73/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /Users/muralidadi/.gradle/caches/transforms-3/69cdc09741e7c55dd2ad826f756fac73/transformed/jetified-play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/muralidadi/.gradle/caches/transforms-3/04364b1a9b08e93b7cd8bf366046e90d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.0.1] /Users/muralidadi/.gradle/caches/transforms-3/04364b1a9b08e93b7cd8bf366046e90d/transformed/jetified-play-services-fido-20.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/muralidadi/.gradle/caches/transforms-3/dcaedd0359377d66c78faf2bd5f80899/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-identity:17.0.0] /Users/muralidadi/.gradle/caches/transforms-3/dcaedd0359377d66c78faf2bd5f80899/transformed/jetified-play-services-identity-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/13f20bfff5ac419585b69cf97f92df38/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/13f20bfff5ac419585b69cf97f92df38/transformed/jetified-play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/2d62d7cd100974885f3de458b491b3d8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/2d62d7cd100974885f3de458b491b3d8/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/muralidadi/.gradle/caches/transforms-3/18f1cb90b237af2a0f67428043f4c88b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] /Users/muralidadi/.gradle/caches/transforms-3/18f1cb90b237af2a0f67428043f4c88b/transformed/fragment-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/muralidadi/.gradle/caches/transforms-3/2340e7d60100f5a3879637c6663a6953/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /Users/muralidadi/.gradle/caches/transforms-3/2340e7d60100f5a3879637c6663a6953/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/4b130f43437e255747ba01d5a3c3745c/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/4b130f43437e255747ba01d5a3c3745c/transformed/jetified-emoji2-views-helper-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/0b93342ff6aab53f86f316bd62d3cf0c/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/0b93342ff6aab53f86f316bd62d3cf0c/transformed/jetified-tracing-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/6c0940a54a2a421bb977d51f30418aa3/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/6c0940a54a2a421bb977d51f30418aa3/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/0ccacaa823cb48230d9d10a7cd86d6a4/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/0ccacaa823cb48230d9d10a7cd86d6a4/transformed/jetified-ui-common-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/3a5da3d902c8aea8caa9061a11800a24/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/3a5da3d902c8aea8caa9061a11800a24/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/7ef12656eb970fce250b93c630726bc8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/7ef12656eb970fce250b93c630726bc8/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/muralidadi/.gradle/caches/transforms-3/9b44ca7d28d03228b419ccbb3bc70820/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/muralidadi/.gradle/caches/transforms-3/9b44ca7d28d03228b419ccbb3bc70820/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/muralidadi/.gradle/caches/transforms-3/00d4899b049b51c9ef34b3036635a63e/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /Users/muralidadi/.gradle/caches/transforms-3/00d4899b049b51c9ef34b3036635a63e/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/0564d0cd8241227a9e9be772b712fa75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/0564d0cd8241227a9e9be772b712fa75/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/652b95a8e81d71f1302d03f8cacf7888/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/652b95a8e81d71f1302d03f8cacf7888/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/9456f2700fd1aabdabfe949539089eb8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/9456f2700fd1aabdabfe949539089eb8/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/cba5e601268f2b7d5ed519c05c178ec0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/cba5e601268f2b7d5ed519c05c178ec0/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/e7da03eda7b8868d39012170a7697484/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/e7da03eda7b8868d39012170a7697484/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/bb9c477224f727e3d6f7679289e80193/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/bb9c477224f727e3d6f7679289e80193/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/d3cee743c86ff6e39c0b21088fad5171/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/d3cee743c86ff6e39c0b21088fad5171/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/5cfdf1a2ea7d820d648432fd19783f08/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/5cfdf1a2ea7d820d648432fd19783f08/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/muralidadi/.gradle/caches/transforms-3/d67cdf107ab14193204e2864ca8c1670/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/muralidadi/.gradle/caches/transforms-3/d67cdf107ab14193204e2864ca8c1670/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] /Users/muralidadi/.gradle/caches/transforms-3/8805dd3cb911a8577598b96c90310d08/transformed/core-1.7.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/7e57376fdf6f4e57caefbbcea3c6f39c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/7e57376fdf6f4e57caefbbcea3c6f39c/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/fad8f9e142fbdc9420933913df522125/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/fad8f9e142fbdc9420933913df522125/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/598f78d38ba258ccc3fb30a77ecc356c/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/598f78d38ba258ccc3fb30a77ecc356c/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/c7ac435a9cf22acc30b67f06b10dce50/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/c7ac435a9cf22acc30b67f06b10dce50/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/ef7fc939f40dc466f149ae459eaba302/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/ef7fc939f40dc466f149ae459eaba302/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muralidadi/.gradle/caches/transforms-3/b69236ee6779035dc3aecabd2ea60a4f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/muralidadi/.gradle/caches/transforms-3/b69236ee6779035dc3aecabd2ea60a4f/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b465c72db0b71e675b984bba03994074/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b465c72db0b71e675b984bba03994074/transformed/lifecycle-livedata-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/0e8bcc3bbb9938a9ff4e9a4e5d9ceb95/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /Users/muralidadi/.gradle/caches/transforms-3/0e8bcc3bbb9938a9ff4e9a4e5d9ceb95/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/00042a4ca5cf8a18a537006d112a1976/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/00042a4ca5cf8a18a537006d112a1976/transformed/jetified-lifecycle-service-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/2f7f128658d8cfbbf9bf05cd540c76b4/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/2f7f128658d8cfbbf9bf05cd540c76b4/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b4c9ac0bd7c3e627bf8ed3a13411a9f9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/muralidadi/.gradle/caches/transforms-3/b4c9ac0bd7c3e627bf8ed3a13411a9f9/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/4c7ef465923f5c82943e3f80f8fd6d7a/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.6.0] /Users/muralidadi/.gradle/caches/transforms-3/4c7ef465923f5c82943e3f80f8fd6d7a/transformed/jetified-fbcore-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/7e12783f8c408b5304d1b58becd92ab3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/muralidadi/.gradle/caches/transforms-3/7e12783f8c408b5304d1b58becd92ab3/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:5:5-77
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:5:22-75
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:11:9-111
+	android:exported
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:11:84-108
+	android:name
+		ADDED from /Users/muralidadi/Murali-2023/react/HungyBingy/android/app/src/debug/AndroidManifest.xml:11:19-83
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+	android:name
+		ADDED from [com.facebook.flipper:flipper:0.125.0] /Users/muralidadi/.gradle/caches/transforms-3/364159cd40741b03aa450fe85282ef2b/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+provider#com.imagepicker.ImagePickerProvider
+ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-71
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-63
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:70
+	android:resource
+		ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+	android:name
+		ADDED from [:react-native-image-picker] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+activity#com.razorpay.CheckoutActivity
+ADDED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:86
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:51:9-59:20
+MERGED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:51:9-59:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:54:13-36
+	android:configChanges
+		ADDED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-83
+	android:theme
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:55:13-49
+	android:name
+		ADDED from [:react-native-razorpay] /Users/muralidadi/Murali-2023/react/HungyBingy/node_modules/react-native-razorpay/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-57
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/305603b877a715adb0ce598ea99361dd/transformed/jetified-startup-runtime-1.0.0/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /Users/muralidadi/.gradle/caches/transforms-3/8402bbda2a10373271f883e92588dd27/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+queries
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:10:5-39:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.VIEW+data:mimeType:*/*+data:scheme:*
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:11:9-17:18
+action#android.intent.action.VIEW
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:12:21-62
+data
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:14:13-16:38
+	android:scheme
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:16:17-35
+	android:mimeType
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:15:17-39
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:host:pay+data:mimeType:*/*+data:scheme:upi
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:18:9-27:18
+category#android.intent.category.BROWSABLE
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:13-74
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:21:23-71
+intent#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:28:9-30:18
+intent#action:name:android.intent.action.SEND+data:mimeType:*/*
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:31:9-35:18
+action#android.intent.action.SEND
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:13-65
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:32:21-62
+intent#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:36:9-38:18
+action#rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:13-61
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:37:21-58
+receiver#com.razorpay.RzpTokenReceiver
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:42:9-49:20
+	android:exported
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:44:13-36
+	tools:ignore
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:45:13-44
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:43:13-57
+intent-filter#action:name:rzp.device_token.share
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:46:13-48:29
+intent-filter#action:name:android.intent.action.MAIN
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:56:13-58:29
+meta-data#com.razorpay.plugin.googlepay_all
+ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:61:9-63:58
+	android:value
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:63:13-55
+	android:name
+		ADDED from [com.razorpay:checkout:1.6.32] /Users/muralidadi/.gradle/caches/transforms-3/bc0110607d74bbdaed049e6726964c64/transformed/jetified-checkout-1.6.32/AndroidManifest.xml:62:13-61
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.0.2] /Users/muralidadi/.gradle/caches/transforms-3/22317d4b9479b1391754bd8c79af2ca7/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /Users/muralidadi/.gradle/caches/transforms-3/f7405cb40b85b98d925129c077ac4aaf/transformed/jetified-play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:10:9-12:69
+MERGED from [com.google.maps.android:android-maps-utils:3.4.0] /Users/muralidadi/.gradle/caches/transforms-3/0c74c25d4481baacdbee52519109a4b2/transformed/jetified-android-maps-utils-3.4.0/AndroidManifest.xml:10:9-12:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.2.0] /Users/muralidadi/.gradle/caches/transforms-3/30e4f402da705b5f36310b512930eb9c/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] /Users/muralidadi/.gradle/caches/transforms-3/91dd03133224af5dfe38ee1d2e63ce04/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] /Users/muralidadi/.gradle/caches/transforms-3/3c227aaa79c166345baaefe1a92f9c56/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
