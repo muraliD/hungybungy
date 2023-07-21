@@ -4,7 +4,7 @@
             "outputFile": "com.hungybingy.app-mergeReleaseResources-35:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\981781daa5ce25fd28271da9aba3d34c\\transformed\\appcompat-1.4.1\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/res/values-v28/values-v28.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\bcbd1df3938e05c1b6eb20d4d6209476\\transformed\\material-1.1.0\\res\\values-v28\\values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

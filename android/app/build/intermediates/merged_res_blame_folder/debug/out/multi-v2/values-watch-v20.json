@@ -4,7 +4,7 @@
             "outputFile": "com.hungybingy.app-mergeDebugResources-35:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/c26c1bdfcbfa2446c8a298159889cf59/transformed/jetified-play-services-auth-20.6.0/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\c26c1bdfcbfa2446c8a298159889cf59\\transformed\\jetified-play-services-auth-20.6.0\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\9e48e69e8d821ec51a8576a22e164587\\transformed\\appcompat-1.4.1\\res\\values-watch-v20\\values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

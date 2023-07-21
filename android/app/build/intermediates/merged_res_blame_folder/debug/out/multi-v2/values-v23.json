@@ -4,7 +4,7 @@
             "outputFile": "com.hungybingy.app-mergeDebugResources-35:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\593563f10ee039cf962da22a0db240a5\\transformed\\material-1.1.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,17 @@
                     }
                 },
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\5c645f10a0656682eef6959b52e8089e\\transformed\\work-runtime-2.7.1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\9e48e69e8d821ec51a8576a22e164587\\transformed\\appcompat-1.4.1\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,17 +52,7 @@
                     }
                 },
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/5c645f10a0656682eef6959b52e8089e/transformed/work-runtime-2.7.1/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,121",
-                        "endColumns": "65,62",
-                        "endOffsets": "116,179"
-                    }
-                },
-                {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/ef7fc939f40dc466f149ae459eaba302/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\ef7fc939f40dc466f149ae459eaba302\\transformed\\cardview-1.0.0\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

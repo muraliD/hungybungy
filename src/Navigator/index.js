@@ -1,4 +1,5 @@
-import * as React from 'react';
+
+import React, {useEffect, useState} from 'react';
 import { Image, Alert, View, TouchableOpacity, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -40,6 +41,11 @@ const Stack = createNativeStackNavigator();
 const BottomTab = createBottomTabNavigator();
 import { useDispatch, useSelector } from 'react-redux';
 const CustomeTabBarBtn = ({ children, onPress }) => (
+
+
+
+
+
   <TouchableOpacity
     onPress={onPress}
     style={{
@@ -64,6 +70,29 @@ const CustomeTabBarBtn = ({ children, onPress }) => (
 );
 
 const BottomTabsScreen = () => {
+  // const [closed, setClosed] = useState(false)
+
+  // useEffect(() => {
+
+    
+
+  //   if (storeAddressUsersStateResponse == "0") {
+  //     setClosed(true)
+      
+      
+  //   } else  {
+  //     setClosed(false)
+  
+  //   }
+  // }, [storeAddressUsersStateResponse, storeAddressUsersStateError]);
+
+
+  // const {
+   
+  //   storeAddressUsersStateLoading,
+  //   storeAddressUsersStateResponse,
+  //   storeAddressUsersStateError,
+  //   } = useSelector(state => state.storeAddressUserReducer);
 
 
   const getcartval = () =>{
@@ -135,6 +164,7 @@ const BottomTabsScreen = () => {
       <BottomTab.Screen
         name={SCREEN_NAME.CartScreen}
         component={CartScreen}
+        
         options={{
           tabBarLabel: '',
           tabBarShowLabel: false,

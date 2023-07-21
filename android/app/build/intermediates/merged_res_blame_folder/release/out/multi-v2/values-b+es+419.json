@@ -4,7 +4,7 @@
             "outputFile": "com.hungybingy.app-mergeReleaseResources-35:/values-b+es+419/values-b+es+419.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/33e664ce4a3965cf05b8037e8a3483fb/transformed/jetified-play-services-wallet-18.1.3/res/values-b+es+419/values.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\9627c0d0b2da456e803cba2b2c89e2b8\\transformed\\jetified-play-services-wallet-18.1.3\\res\\values-b+es+419\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

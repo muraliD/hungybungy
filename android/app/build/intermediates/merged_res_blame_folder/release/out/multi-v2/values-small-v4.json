@@ -4,7 +4,7 @@
             "outputFile": "com.hungybingy.app-mergeReleaseResources-35:/values-small-v4/values-small-v4.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/593563f10ee039cf962da22a0db240a5/transformed/material-1.1.0/res/values-small-v4/values-small-v4.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\bcbd1df3938e05c1b6eb20d4d6209476\\transformed\\material-1.1.0\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

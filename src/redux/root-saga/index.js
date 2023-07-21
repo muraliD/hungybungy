@@ -26,6 +26,7 @@ import { deleteAddressUsersSaga } from '../delete-address-users/DeleteAddressUse
 import { userMobileUpdateSaga } from '../user-mobile-update/UserMobileUpdateSaga';
 import { userBingoDetailsSaga } from '../user-bingo-details/UserBingoDetailsSaga';
 import { updateAddressUserSaga } from '../update-address-users/UpdateAddressUsersSaga';
+import { storeAddressUserSaga } from '../store-address-users/StoreAddressUsersSaga';
 export default function* rootSaga() {
   yield all([fork(mobileLoginWatcherSaga)]);
   yield all([fork(getStoresWatcherSaga)]);
@@ -54,4 +55,5 @@ export default function* rootSaga() {
   yield all([fork(userMobileUpdateSaga)]);
   yield all([fork(userBingoDetailsSaga)]);
   yield all([fork(updateAddressUserSaga)]);
+  yield all([fork(storeAddressUserSaga)]);
 }

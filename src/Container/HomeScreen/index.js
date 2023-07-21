@@ -45,6 +45,9 @@ import {
   getPopularCuisinesRequest,
   getPopularCuisinesReset,
 } from '../../redux/get-popular-cuisines/GetPopularCuisinesAction';
+
+
+import { storeAddressUsersRequest } from '../../redux/store-address-users/StoreAddressUsersAction';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 const { width, height } = Dimensions.get('window');
 
@@ -61,6 +64,7 @@ const HomeScreen = ({ route, navigation }) => {
   const [results, setResults] = useState(null);
   const [userid, setuserid] = useState(null);
   const dispatch = useDispatch();
+  const [closed, setClosed] = useState(false);
 
   const {
     addCartItemReset,
@@ -98,11 +102,66 @@ const HomeScreen = ({ route, navigation }) => {
     getPopularCuisinesError,
   } = useSelector(state => state.getPopularCuisinesReducer);
 
-  useEffect(() => {
-    if (isFocused) {
 
-      getLocationFromAsync();
-    }
+  const {
+   
+  storeAddressUsersStateLoading,
+  storeAddressUsersStateResponse,
+  storeAddressUsersStateError,
+  } = useSelector(state => state.storeAddressUserReducer);
+
+
+
+
+
+
+  useEffect(() => {
+
+    const checkstore = async () => {
+      if (isFocused) {
+        let location = await AsyncStorageManager.localStorage.retrieveData(
+          LOCAL_KEYS.SELECTED_LOCATION,
+        );
+        if (location) {
+          var loc = JSON.parse(location)
+         
+          setSelectedLocation(loc.store_area);
+  
+          if(loc.kitchen_status == "0"){
+            dispatch(storeAddressUsersRequest("0"));
+            
+            let UserData = await AsyncStorageManager.localStorage.retrieveData(
+              LOCAL_KEYS.USER_DATA,
+            );
+            if (UserData != undefined && UserData) {
+              var dataUser = JSON.parse(UserData);
+              setUser(dataUser && 'data' in dataUser ? dataUser["data"]["full_name"] : "");
+             
+              setuserid(dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : "");
+        
+             
+        
+            }
+            dispatch(getMobileAppSlidersRequest());
+          }else{
+            dispatch(storeAddressUsersRequest("1"));
+           
+            getLocationFromAsync();
+  
+          }
+         
+        
+  
+        }
+  
+       
+      }
+      
+    };
+
+   
+
+    checkstore()
 
 
   }, [isFocused]);
@@ -117,6 +176,8 @@ const HomeScreen = ({ route, navigation }) => {
   }, []);
 
   const getLocationFromAsync = async () => {
+
+    debugger
 
     let UserData = await AsyncStorageManager.localStorage.retrieveData(
       LOCAL_KEYS.USER_DATA,
@@ -157,6 +218,20 @@ const HomeScreen = ({ route, navigation }) => {
 
   useEffect(() => {
 
+    
+
+    if (storeAddressUsersStateResponse == "0") {
+      setClosed(true)
+      
+      
+    } else  {
+      setClosed(false)
+    // Alert.alert('HungyBingy', JSON.stringify(getACartItemError.message));
+    }
+  }, [storeAddressUsersStateResponse, storeAddressUsersStateError]);
+
+  useEffect(() => {
+
     if (getCartItemResponse) {
       if (getCartItemResponse.status) {
 
@@ -164,7 +239,7 @@ const HomeScreen = ({ route, navigation }) => {
        
         console.log('cart items response, ', getCartItemResponse);
       } else {
-         Alert.alert('HungyBingy', JSON.stringify(getCartItemResponse.message));
+        //  Alert.alert('HungyBingy', JSON.stringify(getCartItemResponse.message));
       }
     } else if (getACartItemError) {
     // Alert.alert('HungyBingy', JSON.stringify(getACartItemError.message));
@@ -182,10 +257,10 @@ const HomeScreen = ({ route, navigation }) => {
         // );
       }
     } else if (getMobileAppSlidersError) {
-      Alert.alert(
-        'HungyBingy',
-        JSON.stringify(getMobileAppSlidersError.message),
-      );
+      // Alert.alert(
+      //   'HungyBingy',
+      //   JSON.stringify(getMobileAppSlidersError.message),
+      // );
     }
   }, [getMobileAppSlidersResponse, getMobileAppSlidersError]);
 
@@ -198,7 +273,7 @@ const HomeScreen = ({ route, navigation }) => {
         // Alert.alert('HungyBingy', JSON.stringify(getOurBrandsResponse.message));
       }
     } else if (getOurBrandsError) {
-      Alert.alert('HungyBingy', JSON.stringify(getOurBrandsError.message));
+      // Alert.alert('HungyBingy', JSON.stringify(getOurBrandsError.message));
     }
   }, [getOurBrandsResponse, getOurBrandsError]);
 
@@ -243,10 +318,10 @@ const HomeScreen = ({ route, navigation }) => {
         // );
       }
     } else if (getPopularCuisinesError) {
-      Alert.alert(
-        'HungyBingy',
-        JSON.stringify(getPopularCuisinesError.message),
-      );
+      // Alert.alert(
+      //   'HungyBingy',
+      //   JSON.stringify(getPopularCuisinesError.message),
+      // );
     }
   }, [getPopularCuisinesResponse, getPopularCuisinesError]);
 
@@ -643,7 +718,7 @@ const HomeScreen = ({ route, navigation }) => {
       <ScrollView
         style={{ marginBottom: 150, marginTop: 20 }}
         contentContainerStyle={{ flexGrow: 1 }}>
-        <View style={{ flex: 1 }}>
+       <View style={{ flex: 1 }}>
           {/* sliders */}
           {getMobileAppSlidersResponse &&
             getMobileAppSlidersResponse.Data?.length > 0 && (
@@ -704,6 +779,7 @@ const HomeScreen = ({ route, navigation }) => {
             )}
 
           {/* our brands */}
+          {closed == false?<View>
           {getOurBrandsResponse && getOurBrandsResponse.Data?.length > 0 && (
             <View>
               <View
@@ -901,6 +977,19 @@ const HomeScreen = ({ route, navigation }) => {
                 />
               </View>
             )}
+            </View>:
+            <View style={{flex:1,flexDirection:"column",justifyContent:"center",alignContent:"center",alignItems:"center"}}>
+              <Image
+            resizeMode={'cover'}
+            width={width}
+            height={height / 2}
+
+
+            source={require('../../assets/images/shop_closed.png')}
+          />
+          <Text style={{ color: "#FF1300", height: 50,fontSize: 26,marginTop:10 }}>{"Kitchen is Currently Closed"}</Text>
+              <Text style={{color:"white",paddingHorizontal:50,textAlign:"center"}}>Sorry for the inconvience ! Please check-in after some time for your favourite tasty items.</Text>
+            </View>}
         </View>
       </ScrollView>
 

@@ -26,6 +26,7 @@ import deleteAddressUserReducer from '../delete-address-users/DeleteAddressUsers
 import userMobileUpdateReducer from '../user-mobile-update/UserMobileUpdateReducer';
 import userBingoDetailsReducer from '../user-bingo-details/UserBingoDetailsReducer';
 import updateAddressUserReducer from '../update-address-users/UpdateAddressUsersReducer';
+import storeAddressUserReducer from '../store-address-users/StoreAddressUsersReducer';
 export default combineReducers({
   mobileLoginReducer,
   getStoresReducer,
@@ -53,5 +54,6 @@ export default combineReducers({
   deleteAddressUserReducer,
   userMobileUpdateReducer,
   userBingoDetailsReducer,
-  updateAddressUserReducer
+  updateAddressUserReducer,
+  storeAddressUserReducer
 });

@@ -4,7 +4,7 @@
             "outputFile": "com.hungybingy.app-mergeDebugResources-35:/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/muralidadi/.gradle/caches/transforms-3/9e48e69e8d821ec51a8576a22e164587/transformed/appcompat-1.4.1/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\mdadi\\.gradle\\caches\\transforms-3\\9e48e69e8d821ec51a8576a22e164587\\transformed\\appcompat-1.4.1\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

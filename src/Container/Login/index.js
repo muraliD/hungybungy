@@ -52,7 +52,9 @@ const Login = ({route, navigation}) => {
 
   useEffect(() => {
     if (mobileLoginResponse) {
+      debugger
       if (mobileLoginResponse.status) {
+        debugger
         navigation.navigate(SCREEN_NAME.SET_LOCATION_SCREEN);
         AsyncStorageManager.localStorage.storeData(
           LOCAL_KEYS.USER_DATA,
