@@ -60,6 +60,7 @@ const HomeScreen = ({ route, navigation }) => {
   const isFocused = useIsFocused();
   const [user, setUser] = useState(' ');
   const [selectedLocation, setSelectedLocation] = useState(' ');
+  const [selectedLocationId, setSelectedLocationId] = useState(' ');
   const scrollX = React.useRef(new Animated.Value(0)).current;
   const [results, setResults] = useState(null);
   const [userid, setuserid] = useState(null);
@@ -67,7 +68,7 @@ const HomeScreen = ({ route, navigation }) => {
   const [closed, setClosed] = useState(false);
 
   const {
-    addCartItemReset,
+ 
     getAddCartItemResponse,
     getAddCartItemError,
   } = useSelector(state => state.defaultAddCartItemReducer);
@@ -117,57 +118,62 @@ const HomeScreen = ({ route, navigation }) => {
 
   useEffect(() => {
 
-    const checkstore = async () => {
-      if (isFocused) {
-        let location = await AsyncStorageManager.localStorage.retrieveData(
-          LOCAL_KEYS.SELECTED_LOCATION,
-        );
-        if (location) {
-          var loc = JSON.parse(location)
-         
-          setSelectedLocation(loc.store_area);
-  
-          if(loc.kitchen_status == "0"){
-            dispatch(storeAddressUsersRequest("0"));
-            
-            let UserData = await AsyncStorageManager.localStorage.retrieveData(
-              LOCAL_KEYS.USER_DATA,
-            );
-            if (UserData != undefined && UserData) {
-              var dataUser = JSON.parse(UserData);
-              setUser(dataUser && 'data' in dataUser ? dataUser["data"]["full_name"] : "");
-             
-              setuserid(dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : "");
-        
-             
-        
-            }
-            dispatch(getMobileAppSlidersRequest());
-          }else{
-            dispatch(storeAddressUsersRequest("1"));
-           
-            getLocationFromAsync();
-  
-          }
-         
-        
-  
-        }
-  
-       
-      }
-      
-    };
-
    
-
+    if (isFocused) {
+      dispatch(addCartItemReset());
     checkstore()
+    }
 
 
   }, [isFocused]);
+
+  const checkstore = async () => {
+    
+      let location = await AsyncStorageManager.localStorage.retrieveData(
+        LOCAL_KEYS.SELECTED_LOCATION,
+      );
+      if (location) {
+        var loc = JSON.parse(location)
+       
+        setSelectedLocation(loc.store_area);
+        setSelectedLocationId(loc.store_id);
+
+        if(loc.kitchen_status == "0"){
+          dispatch(storeAddressUsersRequest("0"));
+          
+          let UserData = await AsyncStorageManager.localStorage.retrieveData(
+            LOCAL_KEYS.USER_DATA,
+          );
+          if (UserData != undefined && UserData) {
+            var dataUser = JSON.parse(UserData);
+            setUser(dataUser && 'data' in dataUser ? dataUser["data"]["full_name"] : "");
+           
+            setuserid(dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : "");
+      
+           
+      
+          }
+          dispatch(getMobileAppSlidersRequest());
+        }else{
+          dispatch(storeAddressUsersRequest("1"));
+         
+          getLocationFromAsync();
+
+        }
+       
+      
+
+      }
+
+     
+    
+    
+  };
   useEffect(() => {
 
     return () => {
+      setClosed(true);
+      dispatch(addCartItemReset());
       dispatch(getMobileAppSlidersReset());
       dispatch(getOurBrandsReset());
       dispatch(getTodaySpecialitiesReset());
@@ -189,7 +195,8 @@ const HomeScreen = ({ route, navigation }) => {
       setuserid(dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : "");
 
       dispatch(getCartItemRequest({
-        "user_id": dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : ""
+        "user_id": dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : "",
+        "location_id":selectedLocationId,
       }));
 
     }
@@ -200,6 +207,7 @@ const HomeScreen = ({ route, navigation }) => {
     if (location) {
       var loc = JSON.parse(location)
       setSelectedLocation(loc.store_area);
+      setSelectedLocationId(loc.store_id);
       dispatch(getMobileAppSlidersRequest());
 
 
@@ -299,10 +307,10 @@ const HomeScreen = ({ route, navigation }) => {
       }
     } else if (getTodaySpecialitiesError) {
       setResults([])
-      Alert.alert(
-        'HungyBingy',
-        JSON.stringify(getTodaySpecialitiesError.message),
-      );
+      // Alert.alert(
+      //   'HungyBingy',
+      //   JSON.stringify(getTodaySpecialitiesError.message),
+      // );
     }
   }, [getTodaySpecialitiesResponse, getTodaySpecialitiesError]);
 
@@ -326,23 +334,66 @@ const HomeScreen = ({ route, navigation }) => {
   }, [getPopularCuisinesResponse, getPopularCuisinesError]);
 
 
+  const updateLocation = async () => {
 
+
+    let location = await AsyncStorageManager.localStorage.retrieveData(
+      LOCAL_KEYS.SELECTED_LOCATION,
+    );
+    if (location) {
+      var loc = JSON.parse(location)
+      loc.kitchen_status = "0"
+
+      AsyncStorageManager.localStorage.storeData(
+        LOCAL_KEYS.SELECTED_LOCATION,
+        JSON.stringify(loc)
+      );
+      
+    checkstore();
+      // setSelectedLocation(loc.store_area);
+      // setSelectedLocationId(loc.store_id);
+
+      // if(loc.kitchen_status == "0"){
+    }
+
+
+  }
   useEffect(() => {
 
-    if (getAddCartItemResponse) {
-      if (getAddCartItemResponse.status) {
+    console.log(getAddCartItemResponse)
 
-        dispatch(getCartItemRequest({
-          "user_id": userid
-        }));
+    const checkResponse = async () => {
+      if (getAddCartItemResponse) {
+        if (getAddCartItemResponse.status) {
+  
+          dispatch(getCartItemRequest({
+            "user_id": userid,
+            "location_id":selectedLocationId,
+          }));
+  
+          console.log('in our carts add response, ', addCartItemResponse);
+        } else {
+          
+          if(getAddCartItemResponse.message == "Kitchen Closed"){
 
-        console.log('in our carts add response, ', addCartItemResponse);
-      } else {
-        // Alert.alert('HungyBingy', JSON.stringify(getOurBrandsResponse.message));
+            console.log("kit closssssed")
+
+            updateLocation();
+            
+  
+          }
+          // Alert.alert('HungyBingy', JSON.stringify(getOurBrandsResponse.message));
+        }
+      } else if (getAddCartItemError) {
+        // Alert.alert('HungyBingy', JSON.stringify(getAddCartItemError.message));
       }
-    } else if (getAddCartItemError) {
-      Alert.alert('HungyBingy', JSON.stringify(getAddCartItemError.message));
+
     }
+
+    
+    checkResponse();
+
+    
   }, [getAddCartItemResponse, getAddCartItemError]);
 
 
@@ -583,6 +634,7 @@ const HomeScreen = ({ route, navigation }) => {
             dispatch(addCartItemRequest({
               "user_id": userid,
               "item_id": datap.item_id,
+              "location_id":selectedLocationId,
               "qty": "1",
               "amount": datap.item_price
             }));

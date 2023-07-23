@@ -27,7 +27,7 @@ import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import { useDispatch, useSelector } from 'react-redux';
 import { getOurBrandsDetailRequest, getOurBrandsDetailReset, getOurBrandsDetailResponse } from '../../redux/get-brand-detail/GetBrandDetailAction';
-import { addCartItemResponse,addCartItemReset,addCartItemRequest } from '../../redux/add-cart-item/AddCartItemAction';
+import { addCartItemReset, addCartItemRequest } from '../../redux/add-cart-item/AddCartItemAction';
 import { useIsFocused } from '@react-navigation/native';
 import Counter from '../../components/counter/counter';
 const BrandsDetailsScreen = ({ route, navigation }) => {
@@ -38,12 +38,12 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
   const [userdata, setUserData] = useState(null);
   const [results, setResults] = useState(null);
   const [userid, setuserid] = useState(null);
+  const [selectedLocationId, setSelectedLocationId] = useState(' ');
 
-  
   const {
-    addCartItemReset,
-    addCartItemResponse,
-    addCartItemError,
+
+    getAddCartItemResponse,
+    getAddCartItemError,
   } = useSelector(state => state.defaultAddCartItemReducer);
 
 
@@ -78,8 +78,8 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
     );
     if (UserData != undefined && UserData) {
       var dataUser = JSON.parse(UserData);
-     
-     
+
+
       setuserid(dataUser && 'data' in dataUser ? dataUser["data"]["user_id"] : "");
 
     }
@@ -91,6 +91,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
 
     if (location) {
       var loc = JSON.parse(location)
+      setSelectedLocationId(loc.store_id);
       dispatch(getOurBrandsDetailRequest({
         "location_id": loc.store_id,
         "brand_id": brand_id
@@ -111,12 +112,12 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
     if (getOurBrandsDetailsResponse) {
       if (getOurBrandsDetailsResponse.status) {
 
-      
+
 
         const arrWithColor = (getOurBrandsDetailsResponse.data).map(object => {
           return Object.assign(object, { iscart: false });
         });
-        
+
 
         setResults(arrWithColor);
         console.log('in our brands detailsssmurali response, ', getOurBrandsDetailsResponse);
@@ -147,19 +148,52 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
 
   }, [mobileLoginResponse]);
 
+  const updateLocation = async () => {
+    console.log("+++++++++ddddddd+++++++++++++")
 
+    let location = await AsyncStorageManager.localStorage.retrieveData(
+      LOCAL_KEYS.SELECTED_LOCATION,
+    );
+    if (location) {
+      var loc = JSON.parse(location)
+      loc.kitchen_status = "0"
+
+      AsyncStorageManager.localStorage.storeData(
+        LOCAL_KEYS.SELECTED_LOCATION,
+        JSON.stringify(loc)
+      );
+
+    
+      navigation.replace(SCREEN_NAME.TABS_SCREEN);
+      // setSelectedLocation(loc.store_area);
+      // setSelectedLocationId(loc.store_id);
+
+      // if(loc.kitchen_status == "0"){
+    }
+
+
+  }
   useEffect(() => {
 
-    if (addCartItemResponse) {
-      if (addCartItemResponse.status) {
-        console.log('in our carts add response, ', addCartItemResponse);
+    if (getAddCartItemResponse) {
+      console.log('in our carts add response, ', getAddCartItemResponse);
+      if (getAddCartItemResponse.status) {
+        console.log('in our carts add response, ', getAddCartItemResponse);
       } else {
+
+        if (getAddCartItemResponse.message == "Kitchen Closed") {
+
+         
+          updateLocation();
+
+
+        }
         // Alert.alert('HungyBingy', JSON.stringify(getOurBrandsResponse.message));
       }
-    } else if (addCartItemError) {
-      Alert.alert('HungyBingy', JSON.stringify(addCartItemError.message));
+    } else if (getAddCartItemError) {
+      Alert.alert('HungyBingy', JSON.stringify(getAddCartItemError.message));
     }
-  }, [addCartItemResponse, addCartItemError]);
+  }, [getAddCartItemResponse, getAddCartItemError]);
 
   const renderOurBrandItem = ({ item, index }) => (
     <TouchableOpacity
@@ -178,7 +212,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
 
       onPress={() => {
 
-        navigation.navigate(SCREEN_NAME.ItemDetailsScreen,item);
+        navigation.navigate(SCREEN_NAME.ItemDetailsScreen, item);
 
 
       }}
@@ -195,7 +229,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
         <View
           style={{
             width: width / 2 - 30,
-           
+
             backgroundColor: 'white',
             borderRadius: 15,
             paddingHorizontal: 10,
@@ -215,7 +249,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
               marginTop: 5,
               color: Colors.black,
               fontSize: 13,
-              height:30,
+              height: 30,
               fontWeight: '400',
             }}>
             {item.item_name}
@@ -229,7 +263,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
             {item.brand_content}
           </Text>
           <Text style={{ color: 'red', fontSize: 16, fontWeight: '500' }}>
-           {"₹"}{item.item_price}{".00"}
+            {"₹"}{item.item_price}{".00"}
           </Text>
 
 
@@ -247,7 +281,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
               borderRadius: 10,
               flex: 1,
               margin: 10,
-              height:50,
+              height: 50,
 
               // minHeight: height / 4,
 
@@ -284,14 +318,15 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
                 setResults(mainresults)
 
                 dispatch(addCartItemRequest({
-                  "user_id":userid,
-                  "item_id":datap.item_id,
-                  "qty":"1",
-                  "amount":datap.item_price
-              }));
+                  "user_id": userid,
+                  "location_id": selectedLocationId,
+                  "item_id": datap.item_id,
+                  "qty": "1",
+                  "amount": datap.item_price
+                }));
 
 
-                
+
 
 
 
@@ -327,7 +362,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
           navigation.goBack();
         }} title={brand_name} headerBgColor={'black'} />
       {/* body */}
-      <View style={{ flex: 1, flexDirection: 'column' ,backgroundColor:"black"}}>
+      <View style={{ flex: 1, flexDirection: 'column', backgroundColor: "black" }}>
         <View style={styles.topView}>
           <ImageBackground
 
@@ -397,7 +432,7 @@ const BrandsDetailsScreen = ({ route, navigation }) => {
         </View>
 
       </View>
-      {(isOurBrandsDetailsLoading ) && <Loader />}
+      {(isOurBrandsDetailsLoading) && <Loader />}
     </View>
   );
 };

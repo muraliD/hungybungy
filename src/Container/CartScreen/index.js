@@ -58,6 +58,7 @@ const CartScreen = ({ route, navigation }) => {
   const [coupon, setcoupon] = useState(null);
   const [couponT, setcouponT] = useState("");
   const [store, setStore] = useState("");
+  const [selectedLocationId, setSelectedLocationId] = useState(' ');
   const {
     isGetCartItemLoading,
     getCartItemResponse,
@@ -101,7 +102,7 @@ const CartScreen = ({ route, navigation }) => {
 
   useEffect(() => {
     if (isFocused) {
-
+      dispatch(getCartItemReset());
       dispatch(applyCouponCartReset());
 
       getLocationFromAsync();
@@ -112,7 +113,8 @@ const CartScreen = ({ route, navigation }) => {
 
 
   const getLocationFromAsync = async () => {
-
+    var userid = ""
+    var locid = "";
     let UserData = await AsyncStorageManager.localStorage.retrieveData(
       LOCAL_KEYS.USER_DATA,
     );
@@ -121,9 +123,8 @@ const CartScreen = ({ route, navigation }) => {
 
 
       setuser(dataUser.data.user_id);
-      dispatch(getCartItemRequest({
-        "user_id": dataUser.data.user_id
-      }));
+      userid = dataUser.data.user_id;
+
 
 
 
@@ -135,10 +136,17 @@ const CartScreen = ({ route, navigation }) => {
     );
 
     if (location) {
-      
+
       var loc = JSON.parse(location)
       setStore(loc.store_id)
+      locid = loc.store_id;
+      setSelectedLocationId(loc.store_id);
       setDeliveryCost(loc.delivery_charges);
+
+      dispatch(getCartItemRequest({
+        "user_id": userid,
+        "location_id": locid,
+      }));
 
 
     };
@@ -179,7 +187,8 @@ const CartScreen = ({ route, navigation }) => {
 
 
         dispatch(getCartItemRequest({
-          "user_id": user
+          "user_id": user,
+          "location_id": selectedLocationId,
         }));
 
         console.log('cart iupdateresponse, ', updateCartItemsResponse);
@@ -200,7 +209,8 @@ const CartScreen = ({ route, navigation }) => {
 
 
         dispatch(getCartItemRequest({
-          "user_id": user
+          "user_id": user,
+          "location_id": selectedLocationId,
         }));
 
         console.log('cart delete, ', deleteCartItemStateResponse);
@@ -230,7 +240,13 @@ const CartScreen = ({ route, navigation }) => {
         setDiscount(getCartItemResponse.user_order_discount_percentage)
         console.log('cart items response, ', getCartItemResponse);
       } else {
-        Alert.alert('HungyBingy', JSON.stringify(getCartItemResponse.message));
+
+
+
+        navigation.replace(SCREEN_NAME.TABS_SCREEN);
+
+
+
       }
     } else if (getACartItemError) {
       // Alert.alert('HungyBingy', JSON.stringify(getACartItemError.message));
@@ -483,9 +499,9 @@ const CartScreen = ({ route, navigation }) => {
 
     var ceil = Math.ceil(fivePer)
 
-    if(coupon!=null && coupon>0){
-      
-     return ceil+ coupon;
+    if (coupon != null && coupon > 0) {
+
+      return ceil + coupon;
     }
     return ceil;
 
@@ -493,7 +509,7 @@ const CartScreen = ({ route, navigation }) => {
 
 
   })
- 
+
 
   const earncoinPercentage = ((totl) => {
 
@@ -861,7 +877,7 @@ const CartScreen = ({ route, navigation }) => {
               <View style={{ flex: 1, flexDirection: "row", justifyContent: "space-between" }}>
 
                 <Text style={{ color: "white", fontSize: 14, fontWeight: "bold", marginHorizontal: 5 }}>{"Bingy Coins"}</Text>
-                <Text style={{ color: "#FF1300", fontSize: 14, fontWeight: "bold", marginHorizontal: 5 }}>{"-₹"}{bing ? getbitcoinPercentage() : coupon!=null && coupon>0?coupon:0}</Text>
+                <Text style={{ color: "#FF1300", fontSize: 14, fontWeight: "bold", marginHorizontal: 5 }}>{"-₹"}{bing ? getbitcoinPercentage() : coupon != null && coupon > 0 ? coupon : 0}</Text>
 
 
               </View>
@@ -879,7 +895,7 @@ const CartScreen = ({ route, navigation }) => {
                 borderRadius: 40
               }}>
                 <Text style={{ color: "black", fontSize: 14, fontWeight: "bold", marginHorizontal: 5, paddingTop: 5 }}>{"Total Price  "}</Text>
-                <Text style={{ color: "#FF1300", fontSize: 27, fontWeight: "bold", marginHorizontal: 5 }}>{"₹"}{(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost))>0?(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)):"0"}</Text>
+                <Text style={{ color: "#FF1300", fontSize: 27, fontWeight: "bold", marginHorizontal: 5 }}>{"₹"}{(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)) > 0 ? (parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)) : "0"}</Text>
 
               </View>
             </View>
@@ -913,36 +929,36 @@ const CartScreen = ({ route, navigation }) => {
                 onPress={() => {
 
 
-                  var data = results.map((data)=>{
+                  var data = results.map((data) => {
 
                     return {
-                      "item_id": data.item_id, 
-                      "quantity": data.qty, 
-                      "item_price" :  data.amount, 
-                      }
-                    
+                      "item_id": data.item_id,
+                      "quantity": data.qty,
+                      "item_price": data.amount,
+                    }
+
 
                   })
 
-                  var requestObject ={
-                    "user_id":user,
-                    "store_id":store,
-                    "transaction_id":"",
-                    "order_amount":(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)).toString(),
-                    "coupon_code":coupon!=null&&coupon>0? couponT:"",
-                    "bingy_coins":bing ? getbitcoinPercentage().toString() : coupon!=null && coupon>0?coupon.toString():"",
-                    "earn_bingy_coins":(earncoinPercentage(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost))).toString(),
-                    "delivery_cost":deliveryCost.toString(),
-                    "payment_amount":(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)).toString(),
-                    "address_id":"1",
-                    "items":data,
-                   
-                }
+                  var requestObject = {
+                    "user_id": user,
+                    "store_id": store,
+                    "transaction_id": "",
+                    "order_amount": (parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)).toString(),
+                    "coupon_code": coupon != null && coupon > 0 ? couponT : "",
+                    "bingy_coins": bing ? getbitcoinPercentage().toString() : coupon != null && coupon > 0 ? coupon.toString() : "",
+                    "earn_bingy_coins": (earncoinPercentage(parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost))).toString(),
+                    "delivery_cost": deliveryCost.toString(),
+                    "payment_amount": (parseInt(totalz) - parseInt(bing ? getbitcoinPercentage() : 0) + parseInt(deliveryCost)).toString(),
+                    "address_id": "1",
+                    "items": data,
+
+                  }
 
                   // navigation.navigate(SCREEN_NAME.AddressScreen, {"order":requestObject,"from":"cart"});
-                  navigation.navigate(SCREEN_NAME.AddressTypeScreen, {"order":requestObject,"from":"cart"});
+                  navigation.navigate(SCREEN_NAME.AddressTypeScreen, { "order": requestObject, "from": "cart" });
 
-                  
+
 
                 }}
 

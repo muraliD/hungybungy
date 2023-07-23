@@ -23,11 +23,11 @@ import {
   getStoresReset,
 } from '../../redux/get-stores-state/GetStoresAction';
 import Loader from '../../components/loader';
-
+import { useIsFocused } from '@react-navigation/native';
 const SetLocationScreen = ({route, navigation}) => {
   const [storesList, setStoresList] = useState([]);
   const [selectedIndex, setSelectedIndex] = useState(undefined);
-
+  const isFocused = useIsFocused();
   const dispatch = useDispatch();
 
   const {isstoresLoading, getStoresResponse, getStoresError} = useSelector(
@@ -39,7 +39,7 @@ const SetLocationScreen = ({route, navigation}) => {
     return () => {
       dispatch(getStoresReset());
     };
-  }, []);
+  }, [isFocused]);
 
   useEffect(() => {
     if (getStoresResponse) {
